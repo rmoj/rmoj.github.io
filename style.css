@@ -50,10 +50,6 @@ a:any-link {
   font-size: 16px;
 }
 
-#sithhappens {
-  background-color: #39cccc;
-}
-
 .tile {
   display: flex;
   padding: 10px;
@@ -73,6 +69,14 @@ a:any-link {
   font-size: 16px;
 }
 
-#fuschia {
+.teal {
+  background-color: #39cccc;
+}
+
+.fuschia {
   background-color: #f012be;
+}
+
+.aqua {
+  background-color: #7fdbff;
 }
