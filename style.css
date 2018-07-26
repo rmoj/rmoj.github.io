@@ -42,8 +42,6 @@ h2 {
 a:any-link {
   text-align: center;
   justify-content: center;
-  color: white;
-  text-decoration-color: white;
   text-decoration-line: none;
   margin: auto;
   display: block;
@@ -71,12 +69,24 @@ a:any-link {
 
 .teal {
   background-color: #39cccc;
+  color: #111111;
+  text-decoration-color: #111111;
 }
 
 .fuschia {
   background-color: #f012be;
+  color: #111111;
+  text-decoration-color: #111111;
 }
 
 .aqua {
   background-color: #7fdbff;
+  color: #111111;
+  text-decoration-color: #111111;
+}
+
+.orange {
+  background-color: #ff851b;
+  color: #111111;
+  text-decoration-color: #111111;
 }

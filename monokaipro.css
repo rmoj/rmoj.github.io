@@ -1,0 +1,52 @@
+/*
+#FF6188  pink magenta
+
+#A9DC76 olive green
+
+#FFD866 yellow
+
+#FC9867 orange
+
+#AB9DF2 lavender
+
+#77dce8 aqua
+
+*/
+
+.bg-pinkmagenta {
+  background-color: #ff6188;
+}
+.bg-olivegreen {
+  background-color: #a9dc76;
+}
+.bg-yellow {
+  background-color: #ffd866;
+}
+.bg-orange {
+  background-color: #fc9867;
+}
+.bg-lavender {
+  background-color: #ab9df2;
+}
+.bg-aqua {
+  background-color: #77dce8;
+}
+
+.pinkmagenta {
+  color: #ff6188;
+}
+.olivegreen {
+  color: #a9dc76;
+}
+.yellow {
+  color: #ffd866;
+}
+.orange {
+  color: #fc9867;
+}
+.lavender {
+  color: #ab9df2;
+}
+.aqua {
+  color: #77dce8;
+}
