@@ -30,6 +30,8 @@ header {
 
 #work-wrapper {
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 h1 {
