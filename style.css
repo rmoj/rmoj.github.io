@@ -98,3 +98,9 @@ a:any-link {
   color: #111111;
   text-decoration-color: #111111;
 }
+
+.red {
+  background-color: #ff4136;
+  color: #111111;
+  text-decoration-color: #111111;
+}
