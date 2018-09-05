@@ -2,7 +2,7 @@ body {
   background-color: #dddddd;
   height: 100%;
   color: black;
-  text-align: center;
+  /* text-align: center; */
   font-family: monospace;
   margin-top: 50px;
 }
@@ -10,28 +10,36 @@ body {
 #home-wrapper {
   height: 100%;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 header {
-  height: 50px;
+  height: 70px;
   width: 100%;
   position: fixed;
   top: 0;
   background-color: black;
   color: white;
   display: flex;
-  justify-content: space-between;
-  vertical-align: center;
+  /* justify-content: space-between; */
+  justify-content: left;
+  /* vertical-align: center; */
 }
 
 #info {
   padding: 10%;
+  justify-content: center;
+  vertical-align: center;
 }
 
 #work-wrapper {
+  padding: 25px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 h1 {
@@ -42,9 +50,13 @@ h2 {
   font-size: 36px;
 }
 
+h3 {
+  font-size: 30px;
+}
+
 a:any-link {
-  text-align: center;
-  justify-content: center;
+  /* text-align: center; */
+  /* justify-content: center; */
   text-decoration-line: none;
   color: white;
   margin: auto;
@@ -52,14 +64,19 @@ a:any-link {
   font-size: 16px;
 }
 
+a:hover {
+  color: #a9dc76;
+}
+
 .tile {
   display: flex;
-  padding: 10px;
-  align-items: center;
+  padding: 30px;
+  align-items: left;
   font-size: 18px;
   font-family: serif;
-  width: 200px;
-  height: 200px;
+  /* vertical-align: center; */
+  width: 150px;
+  height: 150px;
   margin: 25px;
 }
 
@@ -69,6 +86,14 @@ a:any-link {
 
 .desc {
   font-size: 16px;
+  line-height: 1.25;
+}
+
+.dark {
+  color: #111111;
+}
+.light {
+  color: #eeeeee;
 }
 
 .teal {
@@ -103,6 +128,18 @@ a:any-link {
 
 .red {
   background-color: #ff4136;
+  color: #111111;
+  text-decoration-color: #111111;
+}
+
+.yellow {
+  background-color: #ffdc00;
+  color: #111111;
+  text-decoration-color: #111111;
+}
+
+.olive {
+  background-color: #3d9970;
   color: #111111;
   text-decoration-color: #111111;
 }
