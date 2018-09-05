@@ -20,8 +20,7 @@ header {
   width: 100%;
   position: fixed;
   top: 0;
-  background-color: black;
-  color: white;
+  background-color: #111111;
   display: flex;
   /* justify-content: space-between; */
   justify-content: left;
@@ -54,34 +53,25 @@ h3 {
   font-size: 30px;
 }
 
-a.light:any-link {
+a:any-link {
   /* text-align: center; */
   /* justify-content: center; */
   text-decoration-line: none;
-  color: #eeeeee;
   margin: auto;
   display: block;
-  font-size: 16px;
+  font-size: 18px;
+}
+
+a.light:any-link {
+  color: #eeeeee;
 }
 
 a.dark:any-link {
-  /* text-align: center; */
-  /* justify-content: center; */
-  text-decoration-line: none;
   color: #333333;
-  margin: auto;
-  display: block;
-  font-size: 16px;
 }
 
 a.name:any-link {
-  /* text-align: center; */
-  /* justify-content: center; */
-  text-decoration-line: none;
   color: #a9dc76;
-  margin: auto;
-  display: block;
-  font-size: 16px;
 }
 
 a.light:hover,
