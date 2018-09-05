@@ -54,18 +54,43 @@ h3 {
   font-size: 30px;
 }
 
-a:any-link {
+a.light:any-link {
   /* text-align: center; */
   /* justify-content: center; */
   text-decoration-line: none;
-  color: white;
+  color: #eeeeee;
   margin: auto;
   display: block;
   font-size: 16px;
 }
 
-a:hover {
+a.dark:any-link {
+  /* text-align: center; */
+  /* justify-content: center; */
+  text-decoration-line: none;
+  color: #333333;
+  margin: auto;
+  display: block;
+  font-size: 16px;
+}
+
+a.name:any-link {
+  /* text-align: center; */
+  /* justify-content: center; */
+  text-decoration-line: none;
   color: #a9dc76;
+  margin: auto;
+  display: block;
+  font-size: 16px;
+}
+
+a.light:hover,
+a.dark:hover {
+  color: #a9dc76;
+}
+
+a.name:hover {
+  color: #eeeeee;
 }
 
 .tile {
