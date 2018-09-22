@@ -94,8 +94,6 @@ a.name:hover {
   width: 150px;
   height: 150px;
   margin: 25px;
-  border: 2px;
-  border-radius: 15px;
 }
 
 .title {
@@ -168,4 +166,23 @@ a.name:hover {
   background-color: #ffffff;
   color: #000000;
   text-decoration-color: #111111;
+}
+
+.bg-pinkmagenta {
+  background-color: #ff6188;
+}
+.bg-olivegreen {
+  background-color: #a9dc76;
+}
+.bg-yellow {
+  background-color: #ffd866;
+}
+.bg-orange {
+  background-color: #fc9867;
+}
+.bg-lavender {
+  background-color: #ab9df2;
+}
+.bg-aqua {
+  background-color: #77dce8;
 }

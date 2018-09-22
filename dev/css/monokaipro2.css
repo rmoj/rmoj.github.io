@@ -31,6 +31,27 @@
 .bg-aqua {
   background-color: #77dce8;
 }
+.bg-offwhite {
+  background-color: #fff1f3;
+}
+.bg-ristretto {
+  background-color: #2c2525;
+}
+.bg-ltgrey {
+  background-color: #c3b7b8;
+}
+
+.bg-pinkmagenta > div > a,
+.bg-olivegreen > div a,
+.bg-yellow > div > a,
+.bg-orange > div > a,
+.bg-lavender > div > a,
+.bg-aqua > div > a,
+.bg-offwhite > div > a,
+.bg-ristretto > div > a,
+.bg-ltgrey > div > a {
+  color: #111111;
+}
 
 .pinkmagenta {
   color: #ff6188;
@@ -49,4 +70,13 @@
 }
 .aqua {
   color: #77dce8;
+}
+.offwhite {
+  color: #fff1f3;
+}
+.ristretto {
+  color: #2c2525;
+}
+.ltgrey {
+  color: #c3b7b8;
 }

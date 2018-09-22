@@ -75,10 +75,10 @@ a.name:any-link {
   color: #a9dc76;
 }
 
-a.light:hover,
+/* a.light:hover,
 a.dark:hover {
   color: #a9dc76;
-}
+} */
 
 a.name:hover {
   color: #eeeeee;
@@ -98,6 +98,11 @@ a.name:hover {
   border-radius: 15px;
 }
 
+/* .tile > div {
+  border: 2px;
+  border-radius: 15px;
+} */
+
 .title {
   font-size: 22px;
   font-weight: bold;
@@ -109,13 +114,13 @@ a.name:hover {
   line-height: 1.25;
 }
 
-.dark {
+/* .dark {
   color: #111111;
 }
 .light {
   color: #eeeeee;
-}
-
+} */
+/* 
 .teal {
   background-color: #39cccc;
   color: #111111;
@@ -168,4 +173,4 @@ a.name:hover {
   background-color: #ffffff;
   color: #000000;
   text-decoration-color: #111111;
-}
+} */
